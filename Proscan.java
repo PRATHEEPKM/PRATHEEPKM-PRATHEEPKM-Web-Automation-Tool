@@ -62,8 +62,8 @@ public class Proscan {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss");
             String formattedDateTime = now.format(formatter);
 
-            String testurl = "https://diagnostics-proscan.bharatbenz.com/flashserver_dicv/admin-view";
-            String url = "https://diagnostics-proscan.bharatbenz.com/flashserver_dicv/login";
+            String testurl = "https://webpage ref";
+            String url = "https://test webpage";
 
          
             try {
@@ -135,13 +135,13 @@ public class Proscan {
    	                System.out.println("Attachment file not found: " + fileWithPath);
    	                return;
    	            }
-   	         final String username = "TAPPID-106212";
-   	        final String password = "ifpPzlTFPhRdsCYfsHdpdvceWDU";
+   	         final String username = "SMTP Userid";
+   	        final String password = "SMTP Password";
 
 
    	        Properties props = new Properties();
-   	        props.put("mail.smtp.host", "apac-smtp.che.dc.tbintra.net");
-   	        props.put("mail.smtp.port", "25");
+   	        props.put("mail.smtp.host", "SMTP Hostid");
+   	        props.put("mail.smtp.port", "Portid");
    	        props.put("mail.smtp.auth", "true");
    	        props.put("mail.smtp.starttls.enable", "true");
 
@@ -156,22 +156,15 @@ public class Proscan {
    	        session.setDebug(true);
    	            MimeMessage message = new MimeMessage(session);
 
-   	            message.setFrom(new InternetAddress("dw_365_dicv-flashwaresupport@daimlertruck.com"));
+   	            message.setFrom(new InternetAddress("From ID"));
 
    	            message.setRecipients(
    	                    Message.RecipientType.TO,
-   	                    InternetAddress.parse("mathusuthanan.marimuthu@daimlertruck.com,"
-             		              +"vikram.k@daimlertruck.com," 
-             		              + "alten.jeyaganesh@daimlertruck.com,"
-            		              + "alten.paul_nilavan@daimlertruck.com,"
-            		              + "alten.a.pratheep@daimlertruck.com,"
-             		              + "alten.jackson_sahayaraj@daimlertruck.com,"
-             		              + "alten.aravind@daimlertruck.com,"
-             		              + "alten.udayakumar@daimlertruck.com," 
-             		              + "alten.sadheeshkumar@daimlertruck.com," 
-             		              + "alten.saiprakhash@daimlertruck.com," 
-             		              + "alten.balaji@daimlertruck.com"      	                		                   	                		              
-   	                    		              ));
+   	                    InternetAddress.parse("to mailid,"
+             		             
+             		              + "ADD," 
+             		              + "Add," 
+                     		              ));
 
    	           
 
