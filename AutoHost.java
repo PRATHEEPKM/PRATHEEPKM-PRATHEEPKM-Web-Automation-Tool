@@ -15,7 +15,7 @@ public class AutoHost extends NanoHTTPD {
 
     private static final String productionPath = "C:\\Users\\Public\\Documents\\WebCheckResults.xlsx";
     private static final String developmentPath = "C:\\Users\\Public\\Documents\\ProscanDevWebCheckResults.xlsx";
-    private static final String screenshotPath = "\\\\M365TBWOFW30611\\ScreenShot";  // shared folder
+    private static final String screenshotPath = "\\\\Hostname\\ScreenShot";  // shared folder
     private static final String logoPath = "C:\\Users\\Public\\Documents\\OIP.jpg";  // BharatBenz logo
 
     public AutoHost() throws IOException {
